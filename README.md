@@ -3,3 +3,5 @@ This institution, called Quality of Life (QOL), has an initiative to help member
 As part of this initiative, I will be leading an Intermediate Excel Course for 5-weeks during Spring quarter.
 This website was created with the goal of serving the marketing and registration process in mind.
 It will not likely be used given the timeline of the course and my current website making skills.
+
+Netlify site: https://stupefied-lichterman-30aa68.netlify.app/

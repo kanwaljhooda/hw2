@@ -8,36 +8,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
     
-    <!-- Welcome statement -->
-    <h1>Welcome to QOL's Excel Class</h1>
+    <!-- Welcome statement + Links to Additional Pages -->
+    <div class="flex">
+
+        <div class="w-1/6 m-6">
+            <a class="text-lg text-yellow-700 font-bold" href="aboutinstructor.html">Meet your instructor</a>
+        </div>
+
+        <div class="w-2/3 m-6">
+            <h1 class="text-3xl text-green-700 font-bold text-center">Welcome to QOL's Excel Class</h1>
+        </div>
+
+        <div class="w-1/6 m-6">
+            <a class="text-yellow-700 font-bold" href="registration.html">Register for the Course</a>
+        </div>
+
+    </div>
 
     <!-- Get students excited! -->
-    <h3>Get excited to enhance your Excel skills!</h3>
-    <div><img src="KeepCalmAndLoveExcel.jpg"></div>
+    <div class="px-16 md:flex items-center bg-gray-100">
+        
+        <div class="md:w-1/3 p-6 md:p-8">
+    
+            <!-- <h3>Get excited to enhance your Excel skills!</h3> -->
+            <div><img class="rounded-lg " src="Excel.jfif"></div>
+
+        </div>
 
     <!-- Things they have to look forward to -->
-    <p>In this 5-week course, we will cover:</p>
-    <ul>
-        <li>Class 1: Getting Familiar with Excel</li>
-        <li>Class 2: Analyzing Quantitative and Qualitative Data</li>
-        <li>Class 3: Making Your Work Look Professional</li>
-        <li>Class 4: Building A Report From Scratch</li>
-        <li>Class 5: Thinking Like An Excel Pro</li>
-    </ul>
+    
+        <div class="md:w-2/3 p-6 space-y-4">
 
-    <!-- Links to additional details and pages -->
-    <div>
-        <a href="aboutinstructor.html">Get to know your instructor!</a>
-    </div>
+            <p class="font-bold text-xl">In this 5-week course, we will cover:</p>
+            
+            <p>- Class 1: Getting Famipar with Excel</p>
+            <p>- Class 2: Analyzing Quantitative and Qualitative Data</p>
+            <p>- Class 3: Making Your Work Look Professional</p>
+            <p>- Class 4: Building A Report From Scratch</p>
+            <p>- Class 5: Thinking Like An Excel Pro</p>
+            
+        </div>
 
-    <div>
-        <a href="registration.html">Sign up!</a>
-    </div>
+    </div>    
+       
     
 </body>
 

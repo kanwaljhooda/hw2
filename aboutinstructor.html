@@ -8,34 +8,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
     
-    <h1>Meet your Instructor!</h1>
+    <div class="flex">
 
-    <h3>K.J. Hooda will be the lead instructor for this course</h3>
+        <div class="w-1/6 m-6">
+            <a class="text-lg text-yellow-700 font-bold" href="index.html">Main Course Page</a>
+        </div>
 
-    <div><img src="K.J..jpg"></div>
+        <div class="w-2/3 m-6">
+            <h1 class="text-3xl text-green-700 font-bold text-center">Meet your Instructor</h1>
+        </div>
+
+        <div class="w-1/6 m-6">
+            <a class="text-yellow-700 font-bold" href="registration.html">Register for the Course</a>
+        </div>
+
+    </div>
+    
+    
+    <h3 class="text-center m-6 font-semibold">K.J. Hooda will be the lead instructor for this course</h3>
+
+    <div>
+        
+        <img class="mx-auto w-40" src="K.J..jpg">
+    
+    </div>
     
     <div>
-        <p>See K.J.'s
-        <a href="https://www.linkedin.com/in/kj-hooda/">LinkedIn page</a>
+        <p class="text-center m-6 font-semibold">See K.J.'s
+        <a class="text-blue-700"href="https://www.linkedin.com/in/kj-hooda/">LinkedIn page</a>
         for more information on her background </p>
 
     </div>
- 
-    <!-- Links to additional details and pages -->
-
-    <div>
-        <a href="registration.html">Sign up!</a>
-    </div>
-
-    <div>
-        <a href="index.html">Return to Home Page</a>
-    </div>
-   
+    
 </body>
 
 </html>
